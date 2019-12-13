@@ -8,5 +8,11 @@
 Description:
 A Reflected Cross Site Scripting was discovered in the main authentication page of Rumpus FTP Web File Manager. An attacker can exploit it by sending a crafted link to end users and can execute arbitrary JavaScripts
 
+PoC: 
+
+Payload: ?!'><sVg/OnLoAD=alert`1`//
+
+URL: https://127.0.0.1/Login?!'><sVg/OnLoAD=alert`1`//
+
 Solution:
 Upgrade to the latest version.
